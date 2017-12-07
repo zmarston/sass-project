@@ -1,0 +1,44 @@
+@import
+"abstracts/modules",
+"base/modules",
+"components/modules",
+"layout/modules",
+"pages/modules",
+"themes/modules",
+"vendors/modules";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px dotted gray;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 50vh;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  max-width: 1000px;
+}
+
+.content {
+  height: 40vh;
+  position: relative;
+}
+
+.content-grid {
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  height: 10vh;
+}

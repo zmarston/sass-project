@@ -39,6 +39,13 @@
     width: 100%;
     padding: 5%; }
 
+h1 {
+  text-align: center;
+  color: #b3ffff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-bottom: 0; }
+
 .nav {
   height: 10vh; }
   .nav i {
@@ -80,7 +87,11 @@
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
-  max-width: 1000px; }
+  max-width: 1000px;
+  background-color: #1e1e2f; }
+
+body {
+  background-color: #a3a3c2; }
 
 footer {
   height: 10vh; }

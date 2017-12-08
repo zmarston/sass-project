@@ -19,7 +19,7 @@
     width: 100%;
   }
 }
-@media (min-width: 575px) {
+@media (min-width: $tablet) {
   .content {
     height: 1250px;
   }
@@ -31,7 +31,7 @@
 
   }
 }
-@media (min-width: 900px) {
+@media (min-width: $desktop) {
   .content {
     height: 1000px;
   }

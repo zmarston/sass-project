@@ -1,3 +1,7 @@
+.footer img {
+  width: 100%;
+  padding: 5%; }
+
 .content {
   height: 2500px;
   position: relative; }
@@ -88,7 +92,8 @@ h1 {
   margin-right: auto;
   width: 80vw;
   max-width: 1000px;
-  background-color: #1e1e2f; }
+  background-color: #1e1e2f;
+  margin-bottom: 50px; }
 
 body {
   background-color: #a3a3c2; }

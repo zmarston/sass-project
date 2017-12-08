@@ -1,0 +1,9 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin logo-image {
+  width: 100%;
+  padding: 5%;
+}

@@ -36,8 +36,7 @@
 
 @media screen and (min-width: 1250px) {
   body {
-    display: flex;
-    justify-content: center;
+    @include flex-center;
   }
   .nav {
     padding-right:1100px;

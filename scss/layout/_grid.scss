@@ -1,0 +1,44 @@
+.content {
+  height: 2500px;
+  position: relative;
+}
+
+.content-grid {
+  position: absolute;
+  height: 95%;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  img {
+    object-fit: contain;
+    max-height: 200px !important;
+    width: 100%;
+  }
+}
+@media (min-width: 575px) {
+  .content {
+    height: 1250px;
+  }
+  .content-grid {
+
+    img {
+      width: 50%;
+    }
+
+  }
+}
+@media (min-width: 900px) {
+  .content {
+    height: 1000px;
+  }
+  .content-grid {
+
+    img {
+      width: 33%;
+    }
+  }
+}

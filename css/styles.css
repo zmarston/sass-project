@@ -4,6 +4,16 @@
   text-align: center;
   height: 10%; }
 
+.hero {
+  height: 50vh;
+  background-image: url("../img/scenery-scroll/16.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .hero img {
+    width: 100%;
+    padding: 5%; }
+
 .nav {
   background: red;
   height: 10vh; }
@@ -25,9 +35,6 @@
   padding: 0;
   border: 1px dotted gray;
   box-sizing: border-box; }
-
-.hero {
-  height: 50vh; }
 
 .container {
   margin-left: auto;

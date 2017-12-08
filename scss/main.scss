@@ -1,21 +1,17 @@
 @import
-"abstracts/modules",
-"base/modules",
-"components/modules",
-"layout/modules",
-"pages/modules",
-"themes/modules",
-"vendors/modules";
+  "abstracts/modules",
+  "base/modules",
+  "components/modules",
+  "layout/modules",
+  "pages/modules",
+  "themes/modules",
+  "vendors/modules";
 
 * {
   margin: 0;
   padding: 0;
   border: 1px dotted gray;
   box-sizing: border-box;
-}
-
-.hero {
-  height: 50vh;
 }
 
 .container {

@@ -1,20 +1,45 @@
 .nav {
-  background: red;
   height: 10vh;
+  i {
+    float: right;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  i:hover {
+    cursor: pointer;
+  }
+  .logo {
+    float: left;
+    img {
+      height: 9vh;
+    }
+  }
 }
 
-.logo {
-  background: salmon;
-  float: left;
-}
 
 @media screen and (min-width: 900px) {
   .nav {
     float: left;
-    margin-top: 40vh;
-    margin-right: 3rem;
-    padding: 1rem;
+    padding: 5px;
+    padding-left: 2px;
     position: fixed;
-    background: blue;
+
+    i {
+      clear: both;
+      float: left;
+      margin-top: 10px;
+      margin-left: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .nav {
+    padding-right:1100px;
   }
 }

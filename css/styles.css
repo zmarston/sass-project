@@ -40,25 +40,40 @@
     padding: 5%; }
 
 .nav {
-  background: red;
   height: 10vh; }
-
-.logo {
-  background: salmon;
-  float: left; }
+  .nav i {
+    float: right;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 25px; }
+  .nav i:hover {
+    cursor: pointer; }
+  .nav .logo {
+    float: left; }
+    .nav .logo img {
+      height: 9vh; }
 
 @media screen and (min-width: 900px) {
   .nav {
     float: left;
-    margin-top: 40vh;
-    margin-right: 3rem;
-    padding: 1rem;
-    position: fixed;
-    background: blue; } }
+    padding: 5px;
+    padding-left: 2px;
+    position: fixed; }
+    .nav i {
+      clear: both;
+      float: left;
+      margin-top: 10px;
+      margin-left: 50%; } }
+@media screen and (min-width: 1250px) {
+  body {
+    display: flex;
+    justify-content: center; }
+
+  .nav {
+    padding-right: 1100px; } }
 * {
   margin: 0;
   padding: 0;
-  border: 1px dotted gray;
   box-sizing: border-box; }
 
 .container {

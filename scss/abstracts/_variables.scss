@@ -3,5 +3,5 @@ $bg-color2: #1e1e2f;
 
 $text: #b3ffff;
 
-$tablet: 575px;
-$desktop: 900px;
+$tablet:"(min-width:575px)";
+$desktop:"(min-width:900px)";

@@ -14,7 +14,7 @@
   * open index.html
 
 ## Two-Day Project Thoughts and Feedback section:
-# For the two day project my partners and I started with planning before we built the site. Because this was a sass project one of the first things I did was go through the sass documentation and  decide what sass elements would work best with our project. The elements we chose were variables, mixins, for loop, partials, and import. Once we decided where, why, and how we were going to implement these elements and other technologies we were ready to start styling.
+### For the two day project my partners and I started with planning before we built the site. Because this was a sass project one of the first things I did was go through the sass documentation and  decide what sass elements would work best with our project. The elements we chose were variables, mixins, for loop, partials, and import. Once we decided where, why, and how we were going to implement these elements and other technologies we were ready to start styling.
 
 |Sass element|How it was used|
 |:-:|:--:|
@@ -25,7 +25,7 @@
 |Import|Importing partials connects all of the code. I always imported everything to the main.scss|
 
 ## Different Approach:
-# Now that I have more practice with sass elements I want to utilize them more efficiently. With this wireframe I am going to create a more symmetrical website so that I can use more mixins and variables in my code. Earlier on I am going to add variables and mixins so that when I am creating the site I can make global changes faster. I am also going to try to put more effort into nesting my code and making it very organized.
+### Now that I have more practice with sass elements I want to utilize them more efficiently. With this wireframe I am going to create a more symmetrical website so that I can use more mixins and variables in my code. Earlier on I am going to add variables and mixins so that when I am creating the site I can make global changes faster. I am also going to try to put more effort into nesting my code and making it very organized.
 
 ## Technologies Used
 * HTML

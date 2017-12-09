@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (min-width: $desktop) {
+@media #{$desktop} {
   .nav {
     float: left;
     padding: 5px;

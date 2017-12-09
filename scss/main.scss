@@ -1,31 +1,13 @@
 @import
   "abstracts/modules",
   "base/modules",
-  "components/modules",
-  "layout/modules",
-  "pages/modules",
-  "themes/modules",
-  "vendors/modules";
+  "layout/modules";
 
-* {
-  margin: 0;
-  padding: 0;
-  // border: 1px dotted gray;
-  box-sizing: border-box;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
-  max-width: 1000px;
-  background-color: $bg-color2;
-  margin-bottom: 50px;
-}
-
-body {
-  background-color: $bg-color1;
-}
-footer {
-  height: 10vh;
-}
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    max-width: 1000px;
+    background-color: $bg-color2;
+    margin-bottom: 50px;
+  }

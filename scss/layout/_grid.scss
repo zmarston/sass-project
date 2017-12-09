@@ -18,7 +18,7 @@
     width: 100%;
   }
 }
-@media (min-width: $tablet) {
+@media #{$tablet} {
   .content {
     height: 1250px;
   }
@@ -30,7 +30,7 @@
 
   }
 }
-@media (min-width: $desktop) {
+@media #{$desktop} {
   .content {
     height: 1000px;
   }
